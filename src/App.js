@@ -7,13 +7,13 @@ import Footer from './Footer.js';
 
 function App() {
   return (
-    <>
+    <div className='app-container'>
+      <Nav/>
       <Header/>
       <Main/>
-      <Nav/>
       <Footer/>
-      <h1>Test</h1>
-    </>
+      
+    </div>
   );
 }
 

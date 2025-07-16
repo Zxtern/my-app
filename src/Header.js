@@ -3,10 +3,11 @@ import React from "react";
 function Header() {
     return (
         <header>
-            <img src="/little_lemon_logo.jpg" alt="Little Lemon Logo" width="227"></img>
+            <img src="/AboutUsPic.jpg" alt="About Us" width="300" height="300"></img>
             <h1>Little Lemon</h1>
-            <h3>Home</h3>
-            <h3>About</h3>
+            <h2>Silicon Valley</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+            <buton>Reserve Now</buton>
         </header>
     );
 }
