@@ -72,12 +72,75 @@
   object-fit: cover;
  
 }
+.specials-title h2 {
+  padding: 30px 60px 0px;
+  margin: 10px 45px 1px;
+}
+
+.specials-title {
+  display: flex;
+  background-color: rgb(255, 251, 245);
+  align-items: center;
+  justify-content: space-between;
+
+}
 .specials-container {
+  position: relative;
   display: flex;
   background-color: rgb(255, 251, 245);
   width: 100%;
   padding: 20px 5%; /*responsive side padding*/
   box-sizing: border-box;/*padding overflow protection*/
+}
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  margin-bottom: 20px;
+}
+
+.menu-button{
+  margin-top: 30px;
+  margin-left: 60px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: rgb(254, 232, 67);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.9);/*I should probably note this down what it means*/
+}
+.greek-salad {
+  justify-content: center;
+  background-color: rgb(255, 237, 211);
+  padding: 25px 20px 20px;
+  border-radius: 20px;
+  margin: 25px 20px 20px;
+}
+.bruschetta-item {
+  justify-content: center;
+  background-color: rgb(255, 237, 211);
+  padding: 25px 20px 20px;
+  border-radius: 20px;
+  margin: 25px 20px 20px;
+}
+.penne-pasta {
+  justify-content: center;
+  background-color: rgb(255, 237, 211);
+  padding: 25px 20px 20px;
+  border-radius: 20px;
+  margin: 25px 20px 20px;
+}
+/*Testimonials pg*/
+.testimonials-title {
+  display: flex;
+  background-color: rgb(255, 237, 211); 
+}
+.testimonials-title h2 {
+  padding: 25px 60px 0px;
+  margin: 25px 45px 0px;
 }
 .testimonials-container {
   display: flex;
@@ -86,30 +149,87 @@
   padding: 20px 5%; /*responsive side padding*/
   box-sizing: border-box;/*padding overflow protection*/
 }
+.testimonials-header {
+  margin-bottom: 20px;
+}
+.customer-1 {
+  justify-content: center;
+  background-color: rgb(255, 251, 245);
+  padding: 25px 20px 20px;
+  border-radius: 20px;
+  margin: 25px 20px 20px;
+
+}
+.customer-2 {
+  justify-content: center;
+  background-color: rgb(255, 251, 245);
+  padding: 25px 20px 20px;
+  border-radius: 20px;
+  margin: 25px 20px 20px;
+
+}
+.customer-3 {
+  justify-content: center;
+  background-color: rgb(255, 251, 245);
+  padding: 25px 20px 20px;
+  border-radius: 20px;
+  margin: 25px 20px 20px;
+
+}
+/*Additional details pg*/
 .details-container {
   display: flex;
+  align-items: center;
   width: 100%;
+  gap: 20px;
   padding: 20px 5%; /*responsive side padding*/
   background-color: rgb(49, 82, 47);
   box-sizing: border-box;/*padding overflow protection*/
   color: white;
 }
+.details-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: white;
+  padding-right: 30px;
+  
+}
+.details-container img {
+  display: flex;
+  max-width: 100%;
+  padding: 10px 5%;
+  padding-right: 45px;
+  margin-right: 250px;
+  height: auto;
+}
 
+.details-container h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+}
+/*Footer stuff */
 .footer-links {
   display: flex;
   justify-content: center;
   background-color: rgb(255, 251, 245);
   width: 100%;
-  padding: 20px 5%; /*responsive side padding*/
+  padding: 10px 5%; /*responsive side padding*/
   box-sizing: border-box;/*padding overflow protection*/
+  gap: 9vw;
 }
 
 .footer-container ul{
-  display: flex;
   list-style: none;
-  gap: 6vw;
+  font-weight: bold;
+  gap: 9vw;
+}
+.footer-container li{
+  font-weight: normal;
+  gap: 3vw;
 }
 .footer-container li a {
+  display: flex;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
