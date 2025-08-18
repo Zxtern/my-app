@@ -245,15 +245,32 @@
 }
 
 /*Form stuffs*/
-.booking-from {
+.booking-form {
   display: flex;
   justify-content: center;
+  background-color: rgb(255, 251, 245);
 }
 
 .form {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 25px 20px 20px;
+  border-radius: 20px;
+  margin: 25px 20px 20px;
+  background-color: rgb(49, 82, 47);
+  color:aliceblue;
+
 }
+
+.booking-page h1 {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  color:  rgb(49, 82, 47);
+  background-color: rgb(255, 251, 245);
+}
+
 
 
 

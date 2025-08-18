@@ -6,7 +6,7 @@ const initializeTimes = () => {
 };
 
 const updateTimes = (state, action) => {
-    return initializeTimes
+    return initializeTimes();
 ;}
 
 function BookingPage() {
@@ -14,7 +14,7 @@ function BookingPage() {
 
     return (
         <div>
-            <main>
+            <main className="booking-page">
                 <h1>Reserve a Table</h1>
                 <BookingForm availableTimes={availableTimes} dispatch={dispatch} />
             </main>
